@@ -8,6 +8,6 @@ var argumentsLength = function (...args) {
 };
 
 argumentsLength(1, 2, 3); // 3
-argumentsLength([1]); // 3
+argumentsLength([1]); // 1
 
 argumentsLength({}, null, "3"); // 3
